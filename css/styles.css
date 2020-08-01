@@ -1,0 +1,17 @@
+
+ 
+.nav-bar{
+    background-color: red;
+    height: 50px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+}
+
+nav ul li a {
+    float: right;
+}
