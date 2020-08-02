@@ -12,24 +12,21 @@
 <body>
     <div class="container-fluid" id="navigation">
         <nav class="nav bg-dark">
-            <a href="../Mercy-s-Pizzeria/images/pizza in.jpg"></a>
+           <img src="./images/pizza 2.png" alt=" Logo" width="50" height="50">
             <li class="nav-item">
-                <a href="#" class="nav-link nav-link-custom">Home</a>
+                <a href="#home" class="nav-link nav-link-custom">Home</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link nav-link-custom">About</a>
+                <a href="#about" class="nav-link nav-link-custom">About</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link nav-link-custom">Menu</a>
+                <a href="#menu" class="nav-link nav-link-custom">Menu</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link nav-link-custom">Services</a>
+                <a href="#order" class="nav-link nav-link-custom">Order</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link nav-link-custom">Gallery</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link nav-link-custom">Contact</a>
+                <a href="#contact" class="nav-link nav-link-custom">Contact</a>
             </li>
         </nav>
 
@@ -49,7 +46,7 @@
                     <div class="col-md-6">
                         <p class="text-center pt-5">Description of the the company<br>bklahjwxmbwdv <br>bngvdhejb d</p>
                     </div>
-    
+
                 </div>
 
             </div>
@@ -66,59 +63,122 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="card mb-2">
-                            <img class="card-img-top" src="./images/rahul-upadhyay-yDKHJxfiWDk-unsplash.jpg" alt=""width="200" height="200">
+                            <img class="card-img-top" src="./images/pizaa 3.jpg" alt=""
+                                width="200" height="200">
                             <div class="card-body">
-                                <h3 class="card-title">cheeseburger @Ksh.1,500</h3>
+                                <h3 class="card-title">cheeseburger @Ksh.1,000</h3>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="card mb-2">
-                            <img class="card-img-top" src="./images/carissa-gan-_0JpjeqtSyg-unsplash.jpg" alt="" width="200" height="200">
+                            <img class="card-img-top" src="./images/pizaaaa.jpg" alt=""
+                                width="200" height="200">
                             <div class="card-body">
-                                <h3 class="card-title"> Meat-Deluxe @Ksh.2,000</h3>
+                                <h3 class="card-title"> Meat-Deluxe @Ksh.3,000</h3>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="card mb-2">
-                            <img class="card-img-top"
-                                src="./assets/pizza/Hawaiian-BBQ-Chicken-PIzza-new-500x375.jpg" alt="" width="200" height="200">
+                            <img class="card-img-top" src="./images/PIZAA 4.jpg" alt="" width="200" height="186">
                             <div class="card-body">
-                                <h3 class="card-title">Hawaiian-BBQ-Chicken-PIzza @Ksh.1,700</h3>
+                                <h3 class="card-title">Hawaiian-BBQ-Chicken-PIzza @Ksh.1,500</h3>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="card mb-2">
-                            <img class="card-img-top" src="./assets/pizza/cheeseburger.jpeg" alt=""  width="200" height="200" >
+                            <img class="card-img-top" src="./images/pizza in.jpg" alt="" width="200" height="200">
                             <div class="card-body">
-                                <h3 class="card-title"> Meat-Deluxe @Ksh.2,000</h3>
+                                <h3 class="card-title"> Meat-Deluxe @Ksh.1,000</h3>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div><br> 
-        
-        <div class="container" id="services">
+        </div><br>
+
+        <div class="container" id="order">
             <div class="order">
-                <h4 class="text-center">Select your favourite and Order now</h4>
+                <h4 class="text-center">Select your favourite pizza,crust and toppings and Order now</h4>
             </div>
             <div class="form">
                 <form action="form-group">
-                    <label for="">Pick your favourite</label>
-                    <select name="" id="">
-                        <option value="">select your size</option>
-                        <option value="">small</option>
-                        <option value="">medium</option>
-                        <option value="">large</option>
-                    </select>
+                    <!-- types of pizza -->
+                    <label for="">Pick your favourite;</label>
+                    <select name="" id="pizzas">
+                        <option value="">p ksh.399</option>
+                        <option value="">p1 ksh.90</option>
+                        <option value="">p2 ksh.200</option>
+                        <option value="">p3 ksh.150</option>
+                        <option value="">p4 ksh.200</option>
+                        <option value="">p5 ksh.50</option>
+                        <option value="">p6 ksh.60</option>
+                        <option value="">p7 ksh.67</option>
+                        <option value="">p8 ksh.34</option>
+                    </select><br>
+                    <!-- diiferent sizes of the pizza -->
+                    <label for="">Select you preferable size; </label>
+                    <select name="" id="sizes" required>
+                        <option value="small">Small</option>
+                        <option value="medium">medium</option>
+                        <option value="large">Large</option>
+                    </select><br>
+
+
+                    <!-- crust -->
+                    <label for="">Select your crusts;</label>
+                    <select name="" id="crust" required>
+                        <option value="">c1 ksh.5</option>
+                        <option value="">c2 ks.6</option>
+                        <option value="">c3 ksh.7</option>
+                    </select><br>
+
+
+                    <!-- toppings -->
+                    <label for="">Select your toppings;</label>
+                    <select name="" id="toppings" required>
+                        <option value="">Roast chicken $ crispy bread ksh.100</option>
+                        <option value="">Olive oil,lemon,garlic pie nuts ksh.130</option>
+                        <option value=""> Breade goat cheese, green ksh.140</option>
+                        <option value="">Spinach, raisins, walnuts, ksh.150</option>
+                        <option value="">Romaine,egg onion ksh.1500</option>
+                        <option value="">Tomato, bacon,Chop ksh100</option>
+        
+                    </select><br>
+
+                    <!-- output of selection -->
+                    <label for="number">Number of pizza's</label>
+                    <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1"
+                        required>
                 </form>
             </div>
-
         </div>
-        
+        <div class="container-fluid">
+                <div id="contact">
+                    <h5 class="text-center">Contact Information</h5>
+                    <p>Book now +254-708-434-156 or mail at:</p>
+                    <form action="form-group">
+                        <input class="form-group-1 bg-transparent name" type="name" placeholder="name"name="NAME" class="" id="mce-NAME" placeholder="Name" required><br><br>
+                        <input type="email" class="form-control bg-transparent email" id="email2" placeholder="Email" required="" type="email" value="" name="EMAIL" class="required email"><br>
+                        <input type="text" name="message" id="E-massage" class="form0-group bg-transparent" placeholder="message" required><br><br>
+                        <button type="submit" id="btn1">submit</button>
+                    </form>
+                    
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <p class="text">Location<br><br>
+                               Huruma plazza Restaurant fourth floor</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+     </div>
+
     </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/scripts.js"></script>
