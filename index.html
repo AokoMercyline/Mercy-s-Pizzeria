@@ -104,22 +104,22 @@
                 <h4 class="text-center">Select your favourite pizza,crust and toppings and Order now</h4>
             </div>
             <div class="form">
-                <form>
+                <form id="myForm">
                     <!-- types of pizza -->
                     <label for="">Pick your favourite;</label>
                     <select name="" id="name">
-                        <option value="neapolitan">Neapolitan pizza</option>
-                        <option value="chicago"> Chicago pizza</option>
-                        <option value="newyork"> New York-style pizza</option>
-                        <option value="sicilliam"> Sicillian pizza</option>
-                        <option value="greek"> Greek Pizza</option>
-                        <option value="california">California</option>
-                        <option value="st louis"> St. Louis Pizza</option>
-                        <option value="detroit">Detroit Pizza</option>
+                        <option value="Neapolitan Pizza">Neapolitan pizza</option>
+                        <option value="chicago pizza"> Chicago pizza</option>
+                        <option value="New York-style pizaa"> New York-style pizza</option>
+                        <option value="Sicillian pizza"> Sicillian pizza</option>
+                        <option value="Greek Pizza"> Greek Pizza</option>
+                        <option value="California Pizza">California Pizza</option>
+                        <option value="st louis pizza"> St. Louis Pizza</option>
+                        <option value="Detroit pizza">Detroit Pizza</option>
                     </select><br>
                     <!-- diiferent sizes of the pizza -->
                     <label for="">Select you preferable size; </label>
-                    <select name="" id="size" required>
+                    <select name="" id="size">
                         <option value="small">Small @ Ksh. 1000</option>
                         <option value="medium">medium @ Ksh. 1300</option>
                         <option value="large">Large @ Ksh. 1700</option>
@@ -128,28 +128,29 @@
 
                     <!-- crust -->
                     <label for="">Select your crusts;</label>
-                    <select name="" id="crust" required>
-                        <option value="">Thin Crust Pizza @ ksh. 50</option>
-                        <option value="">Thick Crust Pizza @ ksh. 60</option>
+                    <select name="" id="crust">
+                        <option value="Thin Crust Pizza">Thin Crust Pizza @ ksh. 50</option>
+                        <option value="Thick Crust Pizza">Thick Crust Pizza @ ksh. 60</option>
                 
                     </select><br>
 
 
                     <!-- toppings -->
                     <label for="">Select your toppings;</label>
-                    <select name="" id="topping" required>
-                        <option value="roast">Roast chicken $ crispy bread @ ksh.100</option>
-                        <option value="olive">Olive oil,lemon,garlic pie nuts @ ksh.130</option>
-                        <option value="bread"> Breade goat cheese, green @ ksh.140</option>
-                        <option value="spinach">Spinach, raisins, walnuts, @ ksh.150</option>
-                        <option value="romaine">Romaine,egg onion @ ksh. 120</option>
-                        <option value="tomato">Tomato, bacon,Chop @ ksh. 100</option>
+                    <select name="" id="topping">
+                        <option value="roast">Roast chicken  @ ksh.100</option>
+                        <option value="olive">Olive oil @ ksh.130</option>
+                        <option value="bread"> Bread goat @ ksh.140</option>
+                        <option value="spinach">Spinach @ ksh.150</option>
+                        <option value="romaine">Romaine@ ksh. 120</option>
+                        <option value="tomato">Tomato @ ksh. 100</option>
         
                     </select><br>
 
                     <!-- output of selection -->
                     <label for="quantity">Select number of pizza</label>
-                    <input type="number" id="quantity" name="quantity" min="1">
+                    <input type="number" id="quantity" name="quantity" min="1"><br><br>
+                    <button type="submit">make order</button>
                 </form>
             </div>
         </div>
