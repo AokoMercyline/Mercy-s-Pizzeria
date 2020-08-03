@@ -104,10 +104,10 @@
                 <h4 class="text-center">Select your favourite pizza,crust and toppings and Order now</h4>
             </div>
             <div class="form">
-                <form action="form-group">
+                <form>
                     <!-- types of pizza -->
                     <label for="">Pick your favourite;</label>
-                    <select name="" id="pizzas">
+                    <select name="" id="name">
                         <option value="neapolitan">Neapolitan pizza</option>
                         <option value="chicago"> Chicago pizza</option>
                         <option value="newyork"> New York-style pizza</option>
@@ -119,7 +119,7 @@
                     </select><br>
                     <!-- diiferent sizes of the pizza -->
                     <label for="">Select you preferable size; </label>
-                    <select name="" id="sizes" required>
+                    <select name="" id="size" required>
                         <option value="small">Small @ Ksh. 1000</option>
                         <option value="medium">medium @ Ksh. 1300</option>
                         <option value="large">Large @ Ksh. 1700</option>
@@ -137,7 +137,7 @@
 
                     <!-- toppings -->
                     <label for="">Select your toppings;</label>
-                    <select name="" id="toppings" required>
+                    <select name="" id="topping" required>
                         <option value="roast">Roast chicken $ crispy bread @ ksh.100</option>
                         <option value="olive">Olive oil,lemon,garlic pie nuts @ ksh.130</option>
                         <option value="bread"> Breade goat cheese, green @ ksh.140</option>
@@ -148,9 +148,8 @@
                     </select><br>
 
                     <!-- output of selection -->
-                    <label for="number">Number of pizza's</label>
-                    <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1"
-                        required>
+                    <label for="quantity">Select number of pizza</label>
+                    <input type="number" id="quantity" name="quantity" min="1">
                 </form>
             </div>
         </div>
