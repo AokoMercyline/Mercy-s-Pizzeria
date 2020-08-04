@@ -12,7 +12,7 @@
 <body>
     <div class="container-fluid" id="navigation">
         <nav class="nav bg-dark">
-           <img src="./images/pizza 2.png" alt=" Logo" width="50" height="50">
+            <img src="./images/pizza 2.png" alt=" Logo" width="50" height="50">
             <li class="nav-item">
                 <a href="#home" class="nav-link nav-link-custom">Home</a>
             </li>
@@ -43,8 +43,9 @@
                     <div class="col-md-6" id="img">
                         <img src="./images/carissa-gan-_0JpjeqtSyg-unsplash.jpg" alt="">
                     </div>
-                    <div class="col-md-6"id="paraa">
-                        <p class="text-center">Mercy-s Pizzeria is a company that delivers<br> more than type of pizzas you would like to order.<br>We make delivery within the required time and Location.<br></p>
+                    <div class="col-md-6" id="paraa">
+                        <p class="text-center">Mercy-s Pizzeria is a company that delivers<br> more than type of pizzas
+                            you would like to order.<br>We make delivery within the required time and Location.<br></p>
                     </div>
 
                 </div>
@@ -63,8 +64,7 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="card mb-2">
-                            <img class="card-img-top" src="./images/pizaa 3.jpg" alt=""
-                                width="200" height="200">
+                            <img class="card-img-top" src="./images/pizaa 3.jpg" alt="" width="200" height="200">
                             <div class="card-body">
                                 <h3 class="card-title">cheeseburger @Ksh.1,000</h3>
                             </div>
@@ -72,8 +72,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="card mb-2">
-                            <img class="card-img-top" src="./images/pizaaaa.jpg" alt=""
-                                width="200" height="200">
+                            <img class="card-img-top" src="./images/pizaaaa.jpg" alt="" width="200" height="200">
                             <div class="card-body">
                                 <h3 class="card-title"> Meat-Deluxe @Ksh.3,000</h3>
                             </div>
@@ -99,86 +98,96 @@
             </div>
         </div><br>
 
-        <div class="container" id="order">
+        <div class="container-fluid" id="order">
             <div class="order">
                 <h4 class="text-center">Select your favourite pizza,crust and toppings and Order now</h4>
             </div>
-            <div class="form">
-                <form id="myForm">
-                    <!-- types of pizza -->
-                    <label for="">Pick your favourite;</label>
-                    <select name="" id="name">
-                        <option value="Neapolitan Pizza">Neapolitan pizza</option>
-                        <option value="chicago pizza"> Chicago pizza</option>
-                        <option value="New York-style pizaa"> New York-style pizza</option>
-                        <option value="Sicillian pizza"> Sicillian pizza</option>
-                        <option value="Greek Pizza"> Greek Pizza</option>
-                        <option value="California Pizza">California Pizza</option>
-                        <option value="st louis pizza"> St. Louis Pizza</option>
-                        <option value="Detroit pizza">Detroit Pizza</option>
-                    </select><br>
-                    <!-- diiferent sizes of the pizza -->
-                    <label for="">Select you preferable size; </label>
-                    <select name="" id="size">
-                        <option value="small">Small @ Ksh. 1000</option>
-                        <option value="medium">medium @ Ksh. 1300</option>
-                        <option value="large">Large @ Ksh. 1700</option>
-                    </select><br>
 
+            <div class="row">
+                <div class="col-md-12"></div>
+                <div class="col-md-6 text-light">
+                    <form id="myForm">
+                        <!-- types of pizzas -->
+                        <div class="form-group">
+                            <label for="" class="text-black">Pick your favourite;</label>
+                            <select class="form-control" id="name">
+                                <option value="Neapolitan pizza">Neapolitan pizza</option>
+                                <option value="Chicago pizza">Chicago pizza</option>
+                                <option value="New York-style pizza">New York-style pizza</option>
+                                <option value="Sicillian pizza">Sicillian pizza</option>
+                                <option value="Greek Pizza"> Greek Pizza</option>
+                                <option value="California Pizza">California Pizza</option>
+                                <option value="st louis pizza"> St. Louis Pizza</option>
+                                <option value="Detroit pizza">Detroit Pizza</option>
 
-                    <!-- crust -->
-                    <label for="">Select your crusts;</label>
-                    <select name="" id="crust">
-                        <option value="Thin Crust Pizza">Thin Crust Pizza @ ksh. 50</option>
-                        <option value="Thick Crust Pizza">Thick Crust Pizza @ ksh. 60</option>
-                
-                    </select><br>
+                            </select>
+                        </div>
+                        <!-- sizes -->
+                        <div class="form-group">
+                            <label for="" class="text-black">Select you preferable size;</label>
+                            <select class="form-control" id="size">
+                                <option value="small">Small @ Ksh. 1000</option>
+                                <option value="medium">medium @ Ksh. 1300</option>
+                                <option value="large">Large @ Ksh. 1700</option>
 
+                            </select>
+                        </div>
+                        <!-- crust -->
+                        <div class="form-group">
+                            <label for="" class="text-black">Select your crusts;</label>
+                            <select class="form-control" id="crust">
+                                <option value="Thin Crust Pizza">Thin Crust Pizza @ ksh. 50</option>
+                                <option value="Thick Crust Pizza">Thick Crust Pizza @ ksh. 60</option>
 
-                    <!-- toppings -->
-                    <label for="">Select your toppings;</label>
-                    <select name="" id="topping">
-                        <option value="roast">Roast chicken  @ ksh.100</option>
-                        <option value="olive">Olive oil @ ksh.130</option>
-                        <option value="bread"> Bread goat @ ksh.140</option>
-                        <option value="spinach">Spinach @ ksh.150</option>
-                        <option value="romaine">Romaine@ ksh. 120</option>
-                        <option value="tomato">Tomato @ ksh. 100</option>
-        
-                    </select><br>
-
-                    <!-- output of selection -->
-                    <label for="quantity">Select number of pizza</label>
-                    <input type="number" id="quantity" name="quantity" min="1"><br><br>
-                    <button type="submit">make order</button>
-                </form>
+                            </select>
+                        </div>
+                        <!-- toppings -->
+                        <div class="form-group">
+                            <label for="" class="text-red">Select your toppings;</label>
+                            <select class="form-control" id="topping">
+                                <option value="roast">Roast chicken @ ksh.100</option>
+                                <option value="olive">Olive oil @ ksh.130</option>
+                                <option value="bread"> Bread goat @ ksh.140</option>
+                                <option value="spinach">Spinach @ ksh.150</option>
+                                <option value="romaine">Romaine@ ksh. 120</option>
+                                <option value="tomato">Tomato @ ksh. 100</option>
+                            </select>
+                        </div>
+                        <!-- quantity -->
+                        <div class="form-group">
+                            <label for="quantity">Select number of pizza</label>
+                            <input type="number" id="quantity" name="quantity" min="1"><br><br>
+                            <button type="submit">make order</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
+ 
         <div class="container-fluid">
-                <div id="contact">
-                    <h5 class="text-center">Contact Information</h5>
-                    <p>Book now +254-708-434-156 or mail at:</p>
-                    <form action="form-group">
-                        <div class="container">
-                        <input class="form-control bg-transparent name" type="name" placeholder="name"name="NAME" class="" id="mce-NAME" placeholder="Name" required><br><br>
-                        <input type="email" class="form-control bg-transparent email" id="email2" placeholder="Email" required="" type="email" value="" name="EMAIL" class="required email"><br>
-                        <input type="text" name="message" id="E-massage" class="form-control bg-transparent" placeholder="message" required><br><br>
+            <div id="contact">
+                <h5 class="text-center">Contact Information</h5>
+                <p>Book now +254-708-434-156 or mail at:</p>
+                <form action="form-group">
+                    <div class="container">
+                        <input class="form-control bg-transparent name" type="name" placeholder="name" name="NAME"
+                            class="" id="mce-NAME" placeholder="Name" required><br><br>
+                        <input type="email" class="form-control bg-transparent email" id="email2" placeholder="Email"
+                            required="" type="email" value="" name="EMAIL" class="required email"><br>
+                        <input type="text" name="message" id="E-massage" class="form-control bg-transparent"
+                            placeholder="message" required><br><br>
                         <button type="submit" id="btn1">submit</button>
                     </div>
-                    </form>
-                    
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img src="" alt="">
-                        </div>
-                        <div class="col-md-6">
-                            <p class="text">Location<br><br>
-                               Huruma plazza Restaurant fourth floor</p>
-                        </div>
+                </form>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="text">Location<br><br>
+                            Huruma plazza Restaurant fourth floor</p>
                     </div>
                 </div>
+            </div>
         </div>
-     </div>
 
     </div>
     <script src="js/jquery.min.js"></script>
