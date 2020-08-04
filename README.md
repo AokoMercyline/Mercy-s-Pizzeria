@@ -20,7 +20,7 @@ This is a pizza website that allows users to view ,order different type of Pizza
 * Javascript 
 
 ## BDD
-* Interested in colloborating?Please follow the rules and subcribes on my webpage Mercy-s-Pizzeria
+* Interested in colloborating? Please follow the rules and subcribes on my webpage Mercy-s-Pizzeria
 
 ## Known Bugs
 
