@@ -126,9 +126,9 @@
                         <div class="form-group">
                             <label for="" class="text-black">Select you preferable size;</label>
                             <select class="form-control" id="size">
-                                <option value="small">Small @ Ksh. 1000</option>
-                                <option value="medium">medium @ Ksh. 1300</option>
-                                <option value="large">Large @ Ksh. 1700</option>
+                                <option value="1">Small @ Ksh. 1000</option>
+                                <option value="2">medium @ Ksh. 1300</option>
+                                <option value="3">Large @ Ksh. 1700</option>
 
                             </select>
                         </div>
@@ -136,8 +136,8 @@
                         <div class="form-group">
                             <label for="" class="text-black">Select your crusts;</label>
                             <select class="form-control" id="crust">
-                                <option value="Thin Crust Pizza">Thin Crust Pizza @ ksh. 50</option>
-                                <option value="Thick Crust Pizza">Thick Crust Pizza @ ksh. 60</option>
+                                <option value="1">Thin Crust Pizza @ ksh. 50</option>
+                                <option value="2">Thick Crust Pizza @ ksh. 60</option>
 
                             </select>
                         </div>
@@ -145,18 +145,28 @@
                         <div class="form-group">
                             <label for="" class="text-red">Select your toppings;</label>
                             <select class="form-control" id="topping">
-                                <option value="roast">Roast chicken @ ksh.100</option>
-                                <option value="olive">Olive oil @ ksh.130</option>
-                                <option value="bread"> Bread goat @ ksh.140</option>
-                                <option value="spinach">Spinach @ ksh.150</option>
-                                <option value="romaine">Romaine@ ksh. 120</option>
-                                <option value="tomato">Tomato @ ksh. 100</option>
+                                <option value="1">Roast chicken @ ksh.100</option>
+                                <option value="2">Olive oil @ ksh.130</option>
+                                <option value="3"> Bread goat @ ksh.140</option>
+                                <option value="4">Spinach @ ksh.150</option>
+                                <option value="5">Romaine@ ksh. 120</option>
+                                <option value="6">Tomato @ ksh. 100</option>
                             </select>
                         </div>
                         <!-- quantity -->
                         <div class="form-group">
                             <label for="quantity">Select number of pizza</label>
                             <input type="number" id="quantity" name="quantity" min="1"><br><br>
+                           
+                        </div>
+                        <!-- delivery -->
+                        <div class="form-group">
+                            <label for="">Select your delivery</label>
+                            <select name="" id="delivery">
+                                <option value="">Select mode of delivery</option>
+                                <option value="pick">Pick</option>
+                                <option value="deliver">deliver</option>
+                            </select><br>
                             <button type="submit">make order</button>
                         </div>
                     </form>

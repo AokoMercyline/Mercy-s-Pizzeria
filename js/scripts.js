@@ -10,20 +10,53 @@ function Getpizza( name,size,crust,topping){
 
 Getpizza.prototype.fullorder=function(){
     return this.name + ", " +  this.size + ", " + this.crust + ", " + this.topping
+
+    
 };
+Getpizza.prototype.totalprice=function(){
+    return pizaaprice + toppizaa + crustpizaa
+}
+
+var prices =[1000,1300, 1700]
+var toppingprice=[100,130,140,150,120,100]
+var crustPrices = [50,60]
+
 
 $(document).ready(function(){
     $("#myForm").submit(function(event){
         event.preventDefault();
-        var name = $("#name").val();
-        var size = $("#size").val();
-        var crust = $("#crust").val();
-        var topping = $("#topping").val();
-        var quantity = $("#quantity").val();
+        var name =parseInt($("#name").val());
+        var size =parseInt($("#size").val());
+        var crust =parseInt($("#crust").val());
+        var topping =parseInt($("#topping").val());
+        var quantity =parseInt($("input#quantity").val());
+        var delivery = $("#delivery").val();
         
+        pizaaprice = prices[size-1]
+        alert(pizaaprice)
+        toppizaa=toppingprice[topping-1]
+        alert(toppizaa)
+        crustpizaa= crustPrices[crust-1]
+        alert(crustpizaa)
+        alert(quantity)
+        alert(delivery)
 
-        newpizzaorder = new Getpizza(name,size,crust,topping)
-        alert("Your order is " + newpizzaorder.fullorder())
+       
+
+        newpizzaorder = new Getpizza(pizaaprice,crustpizaa,toppizaa)
+        // alert("Your order is " + newpizzaorder.fullorder())
+        
+      
+        if(delivery ==="pick" && quantity>0){
+           alert("Your order is" + (newpizzaorder.totalprice()) *quantity)
+
+        }
+        else if(delivery==="deliver" && quantity>0){
+            prompt("enter your location")
+            prompt("Your phone number")
+            alert("Your total price for the pizza is" + (newpizzaorder.totalprice()) *quantity + "and your price for  delivery is ksh.500 ")
+
+        }
 
     });
 
