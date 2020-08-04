@@ -94,8 +94,9 @@ h5{
 }
 #order{
     background-color: cadetblue;
-    height: 84vh;
+    height: 86vh;
     position: relative;
+
 }
 
 #contact p{
@@ -117,5 +118,5 @@ h5{
 }
 .footer{
     text-align: center;
-    
+
 }
