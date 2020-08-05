@@ -6,6 +6,7 @@ This is a pizza website that allows users to view ,order different type of Pizza
 
 ## Live page
 * https://aokomercyline.github.io/Mercy-s-Pizzeria/
+
 ## Installation/setup instruction
 * Open terminal (Ctrl +Alt+ T)
 * git clone https://github.com/AokoMercyline/Mercy-s-Pizzeria.git
@@ -24,7 +25,7 @@ This is a pizza website that allows users to view ,order different type of Pizza
 
 ## Known Bugs
 
-* Alert for customers is not well responsive and still working on it.
+* Alert for customers  and contact us page is not well responsive and still working on it.
 
 ## Contact Information
 Woul you like to leave any comment? Please reach me here:
